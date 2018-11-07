@@ -13,7 +13,7 @@
 }
 
 
-.titel{
+.header{
   grid-column: 1/span 2;
   grid-row: 1/span 2;
 }
@@ -72,13 +72,13 @@ p{
   font-family: 'arial', sans-serif;
   opacity: 0.7;
   margin-left: 2%;
-
 }
 
 ul{
   font-family: 'arial', sans-serif;
   opacity: 0.7;
 }
+
 .container{
   display: flex;
   align-items: flex-start;
