@@ -2,8 +2,8 @@
   display:grid;
 /*  grid-template-columns: 100px repeat(3,1fr);
   grid-template-rows: repeat(5,150px);*/
-  grid-template: repeat(10,150px)/200px 800px;
-  grid-gap: 0px 10px;
+  grid-template: repeat(15,75px)/ repeat(5, 200px);
+  grid-gap: 0px 20px;
   margin-left: 2%;
   margin-right: 2%;
   overflow: scroll;
@@ -16,29 +16,29 @@
 
 .a{
   grid-column: 1/span 4;
-  grid-row: 1/span 1;
+  grid-row: 1/span 2;
 }
 
 .b{
-  grid-row-start: 2;
-  grid-row-end: span 10;
+  grid-row-start: 3;
+  grid-row-end: span 12;
   background-color: #383535;
 
 }
 
 .c{
-  grid-row: 2/span 2;
+  grid-row: 3/span 2;
   grid-column: 2/span 3;
 }
 
 .d{
-  grid-area: 4 / 2 / span 3 / span 4;
+  grid-area: 6 / 2 / span 3 / span 4;
 }
 
 
 
 .fit{
-  width: 200px;
+  width: 100%;
   height: auto;
 }
 
