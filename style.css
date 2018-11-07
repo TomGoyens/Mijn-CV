@@ -13,24 +13,24 @@
 }
 
 
-.a{
+.titel{
   grid-column: 1/span 2;
   grid-row: 1/span 2;
 }
 
-.b{
+.VertBanner{
   grid-row-start: 3;
   grid-row-end: span 12;
   background-color: #383535;
 
 }
 
-.c{
+.main1{
   grid-row: 3/span 2;
   grid-column: 2/span 1;
 }
 
-.d{
+.main2{
   grid-area: 6 / 2 / span 3 / span 1;
 }
 
@@ -41,8 +41,12 @@
   height: auto;
 }
 
-.white{
-  color: white;
+.fontStyle{
+  color: #FFF;
+}
+
+.fontStyle2{
+  color: #383535;
 }
 
 h1{
@@ -59,7 +63,6 @@ h2{
 }
 
 h3{
-  color: #383535;
   text-decoration: underline;
   font-family: 'arial', sans-serif;
   margin-left: 2%;
