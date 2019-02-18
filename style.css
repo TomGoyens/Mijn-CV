@@ -2,10 +2,11 @@
   display:grid;
 /*  grid-template-columns: 100px repeat(3,1fr);
   grid-template-rows: repeat(5,150px);*/
-  grid-template: repeat(15,75px)/ 200px 400px;
+  grid-template: repeat(13,75px)/ 300px 500px;
   grid-gap: 0px 20px;
-  margin-left: 2%;
-  margin-right: 2%;
+  width: 800px;
+  margin: 5vh auto;
+  box-shadow: 0px 0px 10px #aaa;
 }
 
 .box{
@@ -16,6 +17,7 @@
 .header{
   grid-column: 1/span 2;
   grid-row: 1/span 2;
+  margin: 1em 2em;
 }
 
 .VertBanner{
