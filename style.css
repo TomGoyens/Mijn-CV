@@ -37,6 +37,7 @@ a:hover{
   grid-row-start: 3;
   grid-row-end: span 12;
   background-color: rgb(193, 40, 40);
+  color: #fff;
 }
 .bannerTop{
   grid-area: 1 / 1 / span 2 / span 1;
@@ -136,6 +137,9 @@ h3{
   text-decoration: underline;
   font-family: 'arial', sans-serif;
   margin-left: 2%;
+}
+
+.fontStyle2 h3{
   color: rgb(193, 40, 40);
 }
 
