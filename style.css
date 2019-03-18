@@ -3,41 +3,107 @@
 /*  grid-template-columns: 100px repeat(3,1fr);
   grid-template-rows: repeat(5,150px);*/
   grid-template: repeat(13,75px)/ 300px 500px;
-  grid-gap: 0px 20px;
   width: 800px;
   margin: 5vh auto;
-  box-shadow: 0px 0px 10px #aaa;
+  box-shadow: 0px 0px 20px #333;
 }
 
-.box{
-
+a{
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
 }
 
+a:hover{
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: underline;
+}
 
-.header{
-  grid-column: 1/span 2;
+.headerBox{
+  grid-column: 2/span 1;
   grid-row: 1/span 2;
-  margin: 1em 2em;
+  -webkit-mask-image: -webkit-gradient(linear, left center, right center, from(rgba(0,0,0,0)), color-stop(10%, rgba(0,0,0,1)), to(rgba(0,0,0,1)));
+  overflow: hidden;
+  text-align: center;
 }
-
-.VertBanner{
+.header{
+  opacity: 0;
+  animation-name: fadeinLeft;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+.VertBannerBox{
   grid-row-start: 3;
   grid-row-end: span 12;
-  background-color: #383535;
-
+  background-color: rgb(193, 40, 40);
+}
+.bannerTop{
+  grid-area: 1 / 1 / span 2 / span 1;
+  background-color: rgb(193, 40, 40);
 }
 
-.Edu{
-  grid-row: 3/span 2;
+.profileBox{
+  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom, from(rgba(0,0,0,0)), color-stop(5%, rgba(0,0,0,1)), to(rgba(0,0,0,1)));
+}
+.profile{
+  opacity: 0;
+  animation-name: fadeinTop;
+  animation-duration: 1s;
+  animation-delay: 1.8s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+.hobbiesBox{
+  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom, from(rgba(0,0,0,0)), color-stop(5%, rgba(0,0,0,1)), to(rgba(0,0,0,1)));
+}
+.hobbies{
+  opacity: 0;
+  animation-name: fadeinTop;
+  animation-duration: 1s;
+  animation-delay: 1.9s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.eduBox{
+  grid-row: 3/span 3;
   grid-column: 2/span 1;
+  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom, from(rgba(0,0,0,0)), color-stop(10%, rgba(0,0,0,1)), to(rgba(0,0,0,1)));
+}
+.edu{
+  opacity: 0;
+  animation-name: fadeinTop;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
 }
 
-.Exp{
+.expBox{
   grid-area: 6 / 2 / span 3 / span 1;
+  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom, from(rgba(0,0,0,0)), color-stop(10%, rgba(0,0,0,1)), to(rgba(0,0,0,1)));
+}
+.exp{
+  opacity: 0;
+  animation-name: fadeinTop;
+  animation-duration: 1s;
+  animation-delay: 1.6s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
 }
 
-.Skills{
-  grid-area: 8 / 2 / span 3 / span 1;
+.skillsBox{
+  grid-area: 8 / 2 / span 4 / span 1;
+  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom, from(rgba(0,0,0,0)), color-stop(10%, rgba(0,0,0,1)), to(rgba(0,0,0,1)));
+}
+.skills{
+  opacity: 0;
+  animation-name: fadeinTop;
+  animation-duration: 1s;
+  animation-delay: 1.7s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
 }
 
 .fit{
@@ -54,7 +120,7 @@
 }
 
 h1{
-  color: #383535;
+  color: rgb(193, 40, 40);
   opacity: 0.9;
   font-family: 'arial', sans-serif;
 }
@@ -70,6 +136,7 @@ h3{
   text-decoration: underline;
   font-family: 'arial', sans-serif;
   margin-left: 2%;
+  color: rgb(193, 40, 40);
 }
 
 p{
@@ -90,4 +157,25 @@ ul{
 
 .tabbed{
   margin-left: 1em;
+}
+
+@keyframes fadeinLeft{
+  0%{
+    transform: translate(-100%, 0);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0%, 0);
+    opacity: 1;
+  }
+}
+@keyframes fadeinTop{
+  0%{
+    transform: translate(0, -100%);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0, 0%);
+    opacity: 1;
+  }
 }
