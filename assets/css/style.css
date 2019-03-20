@@ -1,7 +1,16 @@
-.download{
+body{
+  margin: 0;
+}
+/*pls*/
+
+.menu{
   position: relative;
   right: -50%;
   transform: translate(-50%, 0);
+  display: flex;
+  justify-content: space-around;
+}
+.btn{
   padding: 1em 2em;
   margin-bottom: 5vh;
   border: none;
@@ -11,26 +20,10 @@
 
 .grid{
   display:grid;
-/*  grid-template-columns: 100px repeat(3,1fr);
-  grid-template-rows: repeat(5,150px);*/
   grid-template: repeat(13,75px)/ 3fr 5fr;
   width: 689.43px;
   margin: 5vh auto;
   box-shadow: 0px 0px 20px #333;
-}
-
-body{
-  margin: 0;
-}
-
-a{
-  color: rgba(255, 255, 255, 1);
-  text-decoration: none;
-}
-
-a:hover{
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: underline;
 }
 
 .headerBox{
@@ -112,8 +105,8 @@ a:hover{
 }
 
 .skillsBox{
-  grid-area: 8 / 2 / span 4 / span 1;
-  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom, from(rgba(0,0,0,0)), color-stop(10%, rgba(0,0,0,1)), to(rgba(0,0,0,1)));
+  grid-area: 8 / 2 / span 6 / span 1;
+  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom, from(rgba(0,0,0,0)), color-stop(5%, rgba(0,0,0,1)), to(rgba(0,0,0,1)));
 }
 .skills{
   opacity: 0;
@@ -124,14 +117,14 @@ a:hover{
   animation-fill-mode: forwards;
 }
 
-.fit{
-  width: 100%;
-  height: auto;
+a{
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
 }
 
-.style1{
-  color: #383535;
-  margin-right: 1em;
+a:hover{
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: underline;
 }
 
 h1{
@@ -153,7 +146,7 @@ h3{
   margin-left: 2%;
 }
 
-.fontStyle2 h3{
+.style1 h3{
   color: rgb(193, 40, 40);
 }
 
@@ -168,6 +161,16 @@ ul{
   opacity: 0.7;
 }
 
+.fit{
+  width: 100%;
+  height: auto;
+}
+
+.style1{
+  color: #383535;
+  margin-right: 1em;
+}
+
 .container{
   display: flex;
   align-items: flex-start;
@@ -178,11 +181,13 @@ ul{
 }
 
 @media screen and (min-width: 1050px){
-  .download{
+  .menu{
     position: absolute;
     top: 5%;
     right: 1em;
     transform: translate(0,0);
+    flex-direction: column;
+    width: 150px;
   }
 }
 
