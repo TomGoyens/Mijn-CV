@@ -1,0 +1,32 @@
+{
+  "hobbies": {
+    "title": "Hobbies",
+    "list": [
+      "Volleyball",
+      "Reading (mainly fiction)",
+      "Gaming"
+    ]
+  },
+  "education": {
+    "title": "Education & Qualifications",
+    "list": [
+      ["2006 - 2012","Wetenschappen-Wiskunde (8u)", "Stedelijke Humaniora Dilsen"],
+      ["2012 - 2017","Academic Bachelor in Fysics", "uHasselt"]
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "list": [
+      ["October 2018 - present", "Junior Web Developer" ,"BeCode.org"]
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "list": [
+      ["Fluid in dutch and english"],
+      ["Problem solving"],
+      ["Experience programming languages", ["HTML", "CSS", "Javascript", "PHP", "Pyhton", "c", "Git"]],
+      ["Experience libraries/frameworks", ["jQuery", "Boostrap", "Symfony", "Laravel"]]
+    ]
+  }
+}

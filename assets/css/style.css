@@ -1,7 +1,11 @@
-.download{
+.menu{
   position: relative;
   right: -50%;
   transform: translate(-50%, 0);
+  display: flex;
+  justify-content: space-around;
+}
+.btn{
   padding: 1em 2em;
   margin-bottom: 5vh;
   border: none;
@@ -112,8 +116,8 @@ a:hover{
 }
 
 .skillsBox{
-  grid-area: 8 / 2 / span 4 / span 1;
-  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom, from(rgba(0,0,0,0)), color-stop(10%, rgba(0,0,0,1)), to(rgba(0,0,0,1)));
+  grid-area: 8 / 2 / span 6 / span 1;
+  -webkit-mask-image: -webkit-gradient(linear, center top, center bottom, from(rgba(0,0,0,0)), color-stop(5%, rgba(0,0,0,1)), to(rgba(0,0,0,1)));
 }
 .skills{
   opacity: 0;
@@ -178,11 +182,13 @@ ul{
 }
 
 @media screen and (min-width: 1050px){
-  .download{
+  .menu{
     position: absolute;
     top: 5%;
     right: 1em;
     transform: translate(0,0);
+    flex-direction: column;
+    width: 150px;
   }
 }
 

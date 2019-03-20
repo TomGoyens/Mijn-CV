@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8">
     <title>ProfessionalAFCV</title>
   </head>
@@ -16,10 +16,10 @@
 
       <div class="bannerTop"></div>
       <div class="VertBannerBox">
-        <img src="Profile.png" class="fit" />
+        <img src="assets/images/Profile.png" class="fit" />
         <div class="profileBox">
           <div class="profile">
-            <h3 >Contact:</h3>
+            <h3>Contact:</h3>
             <p >+32 474 65 55 06</p>
             <p>tom.goyens@gmail.com</p>
             <p><a href="www.linkedin.com/in/tom-goyens">LinkedIn</a></p>
@@ -28,8 +28,8 @@
 
         <div class="hobbiesBox">
           <div class="hobbies">
-            <h3 > Hobbies:</h3>
-            <ul >
+            <h3 class="hobbiesTitle">Hobbies:</h3>
+            <ul class="hobbiesList">
               <li>Volleybal</li>
               <li>Lezen (vooral fictie)</li>
               <li>Games</li>
@@ -39,47 +39,71 @@
       </div>
       <div class="eduBox style1">
         <div class="edu">
-          <h3>Education & Qualifications:</h3>
-          <div class="container">
-            <p>2006-2012</p>
-            <p class="tabbed"><strong>Wetenschappen-Wiskunde(8u):</strong> </br> Stedelijke Humaniora Dilsen </p>
-          </div>
-          <div class="container">
-            <p>2012-2017</p>
-            <p class="tabbed"><strong>Academische Bachelor Fisica:</strong> </br> Universiteit Uhasselt</p>
+          <h3 class="eduTitle">Opleidingen & Qualificaties:</h3>
+          <div class="eduList">
+            <div class="container">
+              <p>2006-2012</p>
+              <p class="tabbed"><strong>Wetenschappen-Wiskunde(8u):</strong> </br> Stedelijke Humaniora Dilsen </p>
+            </div>
+            <div class="container">
+              <p>2012-2017</p>
+              <p class="tabbed"><strong>Academische Bachelor Fisica:</strong> </br> Universiteit Uhasselt</p>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="expBox style1">
         <div class="exp">
-          <h3>Experience:</h3>
-          <p>oktober 2018-present</p>
-          <p class="tabbed"><strong>Junior Web Developer</strong> </br> BeCode.org</p>
+          <h3 class="expTitle">Werkervaring:</h3>
+          <div class="expList"><!-- 'list' to be expanded -->
+            <div class="container">
+              <p>oktober 2018-present</p>
+              <p class="tabbed"><strong>Junior Web Developer</strong> </br> BeCode.org</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="skillsBox style1">
         <div class="skills">
-          <h3 > Skills:</h3>
-          <ul >
+          <h3 class="skillsTitle">Skills:</h3>
+          <ul class="skillsList">
             <li>Vloeiend in Nederlands en Engels</li>
-            <li>Proficient computertalen:
+            <li>Problem solving</li>
+            <li>Ervaring computertalen:
               <ul>
                 <li>HTML</li>
                 <li>css</li>
                 <li>Javascript</li>
-                <li>Java</li>
+                <li>PHP</li>
                 <li>python</li>
                 <li>c</li>
+                <li>git</li>
               </ul>
             </li>
-            <li>Meer dan een oppervlakkige kennis van geavanceerde wiskundige en fysische concepten (waarschijnlijk)</li>
+            <li>Ervaring libraries/frameworks:
+              <ul>
+                <li>jQuery</li>
+                <li>Bootstrap</li>
+                <li>Symfony</li>
+                <li>Laravel</li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
     </div>
-    <form method="get" action="Goyens_Tom_CV.pdf" target="_blank">
-       <button class="download" type="submit">Download as pdf.</button>
-    </form>
+    <div class="menu">
+      <button class="btn" id="english">English</button>
+      <button class="btn" id="nederlands">Nederlands</button>
+      <form method="get" action="assets/Goyens_Tom_CV.pdf" target="_blank">
+          <button class="btn" type="submit">Download nederlandse versie als pdf.</button>
+      </form>
+      <form method="get" action="assets/Goyens_Tom_CV_en.pdf" target="_blank">
+          <button class="btn" type="submit">Download english version as pdf.</button>
+      </form>
+    </div>
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
 </html>
