@@ -7,17 +7,22 @@
       "Gaming"
     ]
   },
+  "profiel": {
+    "title": "About me",
+    "profielText": "I'm a motivated junior web developer eager to learn. I'm looking for an interesting workplace, willing to give me space to grow. My plans for the future are to become a full-fledged full stack web developer."
+  },
   "education": {
     "title": "Education & Qualifications",
     "list": [
-      ["2006 - 2012","Wetenschappen-Wiskunde (8u)", "Stedelijke Humaniora Dilsen"],
-      ["2012 - 2017","Academic Bachelor in Fysics", "uHasselt"]
+      ["2006-2012","Wetenschappen-Wiskunde (8u)", "Stedelijke Humaniora Dilsen", ""],
+      ["2012-2017","Academic Bachelor in Fysics", "uHasselt", "(no degree)"],
+      ["2016-2017","Academic Masters in Fysics", "uGent", "(no degree)"]
     ]
   },
   "experience": {
     "title": "Experience",
     "list": [
-      ["October 2018 - present", "Junior Web Developer" ,"BeCode.org"]
+      ["October 2018-present", "Junior Web Developer" ,"BeCode.org"]
     ]
   },
   "skills": {
@@ -25,8 +30,8 @@
     "list": [
       ["Fluid in dutch and english"],
       ["Problem solving"],
-      ["Experience programming languages", ["HTML", "CSS", "Javascript", "PHP", "Pyhton", "c", "Git"]],
-      ["Experience libraries/frameworks", ["jQuery", "Boostrap", "Symfony", "Laravel"]]
+      ["Experience programming languages", ["HTML", "CSS", "Javascript", "PHP", "C", "Git"]],
+      ["Experience libraries/frameworks", ["jQuery", "Bootstrap", "Symfony", "Laravel"]]
     ]
   }
 }
