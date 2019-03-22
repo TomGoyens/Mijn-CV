@@ -25,6 +25,7 @@
 body{
   margin: 0;
   font-size: 14px;
+  font-family: 'arial', sans-serif;
 }
 
 a{
@@ -157,19 +158,16 @@ a:hover{
 h1{
   color: rgb(193, 40, 40);
   opacity: 0.9;
-  font-family: 'arial', sans-serif;
 }
 
 h2{
   color: #383535;
   opacity: 0.6;
-  font-family: 'arial', sans-serif;
   font-style: italic;
 }
 
 h3{
   text-decoration: underline;
-  font-family: 'arial', sans-serif;
   margin-left: 2%;
 }
 
@@ -178,14 +176,16 @@ h3{
 }
 
 p{
-  font-family: 'arial', sans-serif;
   opacity: 0.7;
   margin-left: 2%;
 }
 
+i{
+  opacity: 1;
+}
+
 ul{
   padding: 0 1em;
-  font-family: 'arial', sans-serif;
   opacity: 0.7;
 }
 
