@@ -11,7 +11,7 @@
 }
 
 .header {
-    min-height: 150px;
+    min-height: 100px;
 }
 
 .sidebar {
@@ -40,4 +40,8 @@
 
 .container {
     padding: 0.7rem 1.5rem;
+}
+
+.header .container {
+    padding: 0 1.5rem;
 }
