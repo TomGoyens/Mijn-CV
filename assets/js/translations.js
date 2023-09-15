@@ -169,7 +169,6 @@ function populateSkills(translations){
             container.innerHTML = translations.list[i][0]+":";
             item = document.createElement('ul');
             item.classList.add("none");
-            item.classList.add("tabbed");
             item.classList.add("col-2");
             for(let j = 0; j < translations.list[i][1].length; j++){
                 subItem = document.createElement('li');
