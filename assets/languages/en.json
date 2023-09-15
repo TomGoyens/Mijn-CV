@@ -2,36 +2,93 @@
   "hobbies": {
     "title": "Hobbies",
     "list": [
-      "Volleyball",
+      "Tennis",
       "Reading (mainly fiction)",
       "Gaming"
     ]
   },
   "profiel": {
     "title": "About me",
-    "profielText": "I'm a motivated junior web developer eager to learn. I'm looking for an interesting workplace, willing to give me space to grow. My plans for the future are to become a full-fledged full stack web developer."
+    "profielText": "I'm a motivated web developer eager to expand my knowledge. I'm looking for an interesting workplace, willing to give me space to grow. My plans for the future are to become a full-fledged full stack web developer."
   },
   "education": {
     "title": "Education & Qualifications",
     "list": [
-      ["2006-2012","Wetenschappen-Wiskunde (8u)", "Stedelijke Humaniora Dilsen", ""],
-      ["2012-2017","Academic Bachelor in Fysics", "uHasselt", "(no degree)"],
-      ["2016-2017","Academic Masters in Fysics", "uGent", "(no degree)"]
+      [
+        "2016-2017",
+        "Academic Masters in Fysics",
+        "uGent",
+        "(no degree)"
+      ],
+      [
+        "2012-2017",
+        "Academic Bachelor in Fysics",
+        "uHasselt",
+        "(no degree)"
+      ],
+      [
+        "2006-2012",
+        "Wetenschappen-Wiskunde (8u) Niveau middelbare school",
+        "Stedelijke Humaniora Dilsen",
+        ""
+      ]
     ]
   },
   "experience": {
     "title": "Experience",
     "list": [
-      ["October 2018-present", "Junior Web Developer" ,"BeCode.org"]
+      [
+        "April 2019 - heden",
+        "Web Developer",
+        "Cre8websolutions, Maaseik",
+        [
+          "Collaborated as a key team member in the development and maintenance of web applications using the Laravel PHP framework, ensuring robust back-end functionality.",
+          "Conducted thorough testing, debugging, and optimization to ensure websites and in-house applications were fast-loading, and cross-browser compatible.",
+          "Employed Git for version control and participated in agile development processes, including sprint planning and daily stand-up meetings.",
+          "Implemented RESTful APIs and integrated third-party services for websites and in-house applications.",
+          "Collaborated with UI/UX designers to translate design mockups into pixel-perfect web interfaces and mobile app screens."
+        ]
+      ],
+      [
+        "Oktober 2018 - April 2019",
+        "Junior Web Developer",
+        "BeCode.org",
+        [
+          "Gained hands-on experience with HTML, CSS, and JavaScript while gradually taking on more complex tasks.",
+          "mezelf vertrouwd gemaakt met de basisprincipes van populaire php en javascript frameworks",
+          "Acquired knowledge of web development best practices and coding standards."
+        ]
+      ]
     ]
   },
   "skills": {
     "title": "Skills",
     "list": [
-      ["Fluid in dutch and english"],
-      ["Problem solving"],
-      ["Experience programming languages", ["HTML", "CSS", "Javascript", "PHP", "C", "Git"]],
-      ["Experience libraries/frameworks", ["jQuery", "Bootstrap", "Symfony", "Laravel"]]
+      [
+        "Fluid in dutch and english"
+      ],
+      [
+        "Problem solving"
+      ],
+      [
+        "Experience programming languages",
+        [
+          "<i class=\"fa-brands fa-html5\"></i> HTML",
+          "<i class=\"fa-brands fa-css3-alt\"></i> CSS",
+          "<i class=\"fa-brands fa-square-js\"></i> Javascript",
+          "<i class=\"fa-brands fa-php\"></i> PHP",
+          "<i class=\"fa-brands fa-git-alt\"></i> Git",
+          "<i class=\"fa-solid fa-database\"></i> MySql"
+        ]
+      ],
+      [
+        "Experience libraries/frameworks",
+        [
+          "<i class=\"fa-brands fa-vuejs\"></i> VueJs",
+          "<i class=\"fa-brands fa-react\"></i> React Native",
+          "<i class=\"fa-brands fa-laravel\"></i> Laravel"
+        ]
+      ]
     ]
   }
 }

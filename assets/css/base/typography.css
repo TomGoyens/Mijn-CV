@@ -1,0 +1,65 @@
+* {
+    font-family: 'arial', sans-serif;
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 0.7em;
+}
+
+h2 {
+    color: var(--secondary-color);
+    margin-bottom: 0.7em;
+}
+
+h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.7em;
+    text-decoration: underline;
+}
+
+p {
+    color: var(--secondary-color);
+    margin-bottom: 1em;
+    opacity: 0.9;
+    font-size: 14px
+}
+
+ul {
+    padding-left: 16px;
+    margin: 0;
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.sidebar ul {
+    opacity: 0.9;
+    font-size: 14px;
+}
+
+ul.none {
+    list-style: none;
+}
+
+ul.col-2 {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+ul ul {
+    margin-top: 10px;
+}
+
+li {
+    padding: 6px 2px;
+}
+
+li i {
+    margin-left: -18px;
+    width: 20px
+}
+
+.col-2 li {
+    text-wrap: nowrap;
+}

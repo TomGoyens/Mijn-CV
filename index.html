@@ -1,130 +1,95 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-    <meta charset="utf-8">
-    <title>Tom Goyens CV</title>
-  </head>
-  <body>
-    <div class="grid">
-      <div class="headerBox">
-        <div class="header">
-          <h1>Tom Goyens</h1>
-          <h2>Junior Web Developer</h2>
-        </div>
-      </div>
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="assets/css/base/index.css" rel="stylesheet" type="text/css"/>
+  <meta charset="utf-8">
+  <title>Tom Goyens CV</title>
+</head>
+<body>
+<div class="page grid">
 
-      <div class="bannerTop"></div>
-      <div class="VertBannerBox">
-        <img src="assets/images/Profile.png" class="fit" />
-        <div class="contactBox">
-          <div class="contact">
-            <h3>Contact:</h3>
-            <div class="tabbed">
-              <p><i class="fas fa-home"></i> <span class="tabbed">Oudsbergen</span></p>
-              <p><i class="fas fa-phone"></i> <span class="tabbed">+32 474 65 55 06</span></p>
-              <p><a href="mailto:tom.goyens@gmail.com"><i class="fas fa-envelope"></i> <span class="tabbed">tom.goyens@gmail.com</span></a></p>
-              <p><a href="www.linkedin.com/in/tom-goyens/"><i class="fab fa-linkedin-in"></i> <span class="tabbed">linkedin.com/in/tom-goyens</span></a></p>
-              <p><a href="https://github.com/TomGoyens/"><i class="fab fa-github"></i> <span class="tabbed">github.com/TomGoyens</span></a></p>
-            </div>
-          </div>
-        </div>
+  <div class="sidebar">
 
-        <div class="hobbiesBox">
-          <div class="hobbies">
-            <h3 class="hobbiesTitle">Hobbies:</h3>
-            <ul class="hobbiesList tabbed">
-              <li>Volleybal</li>
-              <li>Lezen (vooral fictie)</li>
-              <li>Gaming</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="profielBox style1">
-        <div class="profiel">
-          <h3 class="profielTitle">Over mijzelf:</h3>
-          <p class="profielText tabbed">
-              Ik ben een gemotiveerde junior web developer bereid om te leren.
-              Ik ben op zoek naar een interessante werkplaats die mij ruimte geeft om te groeien.
-              Mijn plannen voor de toekomst zijn om een volwaardige full stack developer te worden.
-          </p>
-        </div>
-      </div>
-
-      <div class="eduBox style1">
-        <div class="edu">
-          <h3 class="eduTitle">Opleidingen & Qualificaties:</h3>
-          <div class="eduList tabbed">
-            <div class="container">
-              <p>2006-2012</p>
-              <p class="tabbed"><strong>Wetenschappen-Wiskunde (8u)</strong> </br> Stedelijke Humaniora Dilsen <br> </p>
-            </div>
-            <div class="container">
-              <p>2012-2017</p>
-              <p class="tabbed"><strong>Academische Bachelor Fysica</strong> </br>uHasselt <br> (geen diploma behaald)</p>
-            </div>
-            <div class="container">
-              <p>2016-2017</p>
-              <p class="tabbed"><strong>Academic Masters in Fysics</strong> </br>uGent <br> (geen diploma behaald)</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="expBox style1">
-        <div class="exp">
-          <h3 class="expTitle">Werkervaring:</h3>
-          <div class="expList tabbed"><!-- 'list' to be expanded -->
-            <div class="container">
-              <p>Oktober 2018-heden</p>
-              <p class="tabbed"><strong>Junior Web Developer</strong> </br> BeCode.org</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="skillsBox style1">
-        <div class="skills">
-          <h3 class="skillsTitle">Vaardigheden:</h3>
-          <ul class="skillsList tabbed">
-            <li>Vloeiend in nederlands en engels</li>
-            <li>Problem solving</li>
-            <li>Ervaring computertalen:
-              <ul class="listStyle1">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>PHP</li>
-                <li>C</li>
-                <li>Git</li>
-              </ul>
-            </li>
-            <li>Ervaring libraries/frameworks:
-              <ul class="listStyle1">
-                <li>jQuery</li>
-                <li>Bootstrap</li>
-                <li>Symfony</li>
-                <li>Laravel</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="menu">
-      <button class="btn" id="en">English</button>
-      <button class="btn" id="nl">Nederlands</button>
-      <form method="get" action="assets/Goyens_Tom_CV.pdf" target="_blank">
-          <button class="btn" type="submit">Download nederlandse versie als pdf.</button>
-      </form>
-      <form method="get" action="assets/Goyens_Tom_CV_en.pdf" target="_blank">
-          <button class="btn" type="submit">Download english version as pdf.</button>
-      </form>
+    <div class="image-wrapper">
+      <img src="assets/images/Profile.png" class="fit" alt="profile image"/>
     </div>
 
-    <script type="text/javascript" src="assets/js/main.js"></script>
-  </body>
+    <div class="contact container">
+      <h3>Contact:</h3>
+      <div>
+        <p><i class="fas fa-home"></i> <span>Oudsbergen</span></p>
+        <p><a href="mailto:tom.goyens@gmail.com"><i class="fas fa-envelope"></i> <span>tom.goyens@gmail.com</span></a>
+        </p>
+        <p><a href="www.linkedin.com/in/tom-goyens/"><i class="fab fa-linkedin-in"></i>
+          <span>linkedin.com/in/tom-goyens</span></a>
+        </p>
+        <p><a href="https://github.com/TomGoyens/"><i class="fab fa-github"></i> <span>github.com/TomGoyens</span></a>
+        </p>
+      </div>
+    </div>
+
+    <div class="skills container">
+      <h3 class="skillsTitle"></h3>
+      <ul class="skillsList">
+      </ul>
+    </div>
+
+    <div class="hobbies container">
+      <h3 class="hobbiesTitle"></h3>
+      <ul class="hobbiesList"></ul>
+    </div>
+  </div>
+
+  <div class="body">
+
+    <div class="header">
+      <div class="container">
+        <h1>Tom Goyens</h1>
+        <h2><i>Web Developer</i></h2>
+      </div>
+    </div>
+
+    <div class="content container">
+      <div class="profiel">
+        <h3 class="profielTitle"></h3>
+        <p class="profielText tabbed">
+
+        </p>
+      </div>
+
+      <div class="edu">
+        <h3 class="eduTitle"></h3>
+        <div class="eduList tabbed">
+        </div>
+      </div>
+
+      <div class="exp">
+        <h3 class="expTitle"></h3>
+        <div class="expList tabbed">
+          <div class="container">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="menu">
+  <button class="btn" id="en">English</button>
+  <button class="btn" id="nl">Nederlands</button>
+  <form method="get" action="assets/Goyens_Tom_CV.pdf" target="_blank">
+    <button class="btn" type="submit">Download nederlandse versie als pdf.</button>
+  </form>
+  <form method="get" action="assets/Goyens_Tom_CV_en.pdf" target="_blank">
+    <button class="btn" type="submit">Download english version as pdf.</button>
+  </form>
+</div>
+
+<script type="module" src="assets/js/main.js"></script>
+<script src="https://kit.fontawesome.com/4ab6ba026a.js" crossorigin="anonymous"></script>
+</body>
 </html>
