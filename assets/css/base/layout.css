@@ -7,7 +7,7 @@
     height: 297mm;
     width: 210mm;
     margin: 100px auto;
-    box-shadow: 5px 3px 20px #ddd;
+    box-shadow: 5px 3px 10px rgba(50, 50, 50, 0.6);
 }
 
 .header {
