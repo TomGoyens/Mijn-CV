@@ -104,7 +104,7 @@ function populateEducation(translations){
     eduTitle.innerHTML = translations.title+":";
     eduList.innerHTML = "";
     for(let i = 0; i < translations.list.length; i++){
-        container = document.createElement('div');
+        container = document.createElement('li');
         container.classList.add("time-list-item");
         item = document.createElement('p');
         item.innerHTML = translations.list[i][0];
